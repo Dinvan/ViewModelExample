@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.e("Master","Master");
+        Log.e("Master","Master test new test");
         this.viewModel = AppController.getInstance().getViewModel();
         addCount = (TextView) findViewById(R.id.addCount);
         txtCount = (TextView) findViewById(R.id.txtCount);
